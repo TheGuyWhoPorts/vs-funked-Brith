@@ -5,18 +5,18 @@
 				157,
 				265
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 26,
 			"anim": "idle",
-			"indices": [],
+			"loop": false,
 			"name": "Caida"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/BF_Caida_J",
 	"position": [
-		-90,
-		-350
+		0,
+		350
 	],
 	"healthicon": "bf",
 	"flip_x": true,

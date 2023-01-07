@@ -1,110 +1,110 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				173,
 				201
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Down0",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				455,
 				191
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Left_Miss",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Left_Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				231,
 				213
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Down_Miss",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Down_Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				93,
 				457
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Up_Miss",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Up_Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				100,
 				191
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Right_Miss",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Right_Miss"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				160,
 				218
 			],
-			"anim": "idle",
+			"loop": true,
 			"fps": 24,
-			"name": "IDLE_bf",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "IDLE_bf"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				118,
 				254
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Up0",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				110,
 				220
 			],
-			"anim": "singRIGHT",
+			"indices": [],
 			"fps": 24,
-			"name": "Left0",
-			"indices": []
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Left0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				201,
 				214
 			],
-			"anim": "singLEFT",
+			"indices": [],
 			"fps": 24,
-			"name": "Right0",
-			"indices": []
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Right0"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/BF_Dios",
 	"position": [
 		0,
-		-170
+		350
 	],
 	"healthicon": "bf",
 	"flip_x": true,

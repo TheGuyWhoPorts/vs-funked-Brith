@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-110
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "IDLE_Jesus"
+			"fps": 24,
+			"name": "IDLE_Jesus",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				30,
 				-113
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Left"
+			"fps": 24,
+			"name": "Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-16,
 				-110
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Right"
+			"fps": 24,
+			"name": "Right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-141
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Down"
+			"fps": 24,
+			"name": "Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				90,
 				-79
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Up"
+			"fps": 24,
+			"name": "Up",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Jesus",
 	"position": [
-		200,
-		-860
+		0,
+		0
 	],
 	"healthicon": "jesus",
 	"flip_x": false,
@@ -70,8 +70,8 @@
 		61
 	],
 	"camera_position": [
-		-40,
-		210
+		-70,
+		140
 	],
 	"sing_duration": 4,
 	"scale": 1

@@ -15,8 +15,8 @@
 	"no_antialiasing": false,
 	"image": "characters/BF_Rayo_D",
 	"position": [
-		0,
-		-100
+		186,
+		630
 	],
 	"healthicon": "bf",
 	"flip_x": true,
@@ -26,9 +26,9 @@
 		209
 	],
 	"camera_position": [
-		260,
-		-340
+		380,
+		-620
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 2
 }

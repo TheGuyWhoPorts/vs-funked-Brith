@@ -27,7 +27,7 @@
 	"image": "characters/gfcaida",
 	"position": [
 		0,
-		-730
+		-200
 	],
 	"healthicon": "gf",
 	"flip_x": false,
