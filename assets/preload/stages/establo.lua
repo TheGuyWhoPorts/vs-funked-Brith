@@ -1,33 +1,28 @@
 function onCreate()
-	-- background shit
-	makeLuaSprite('bg1', 'bg1', -600, -300);
-	setLuaSpriteScrollFactor('stageback', 0.9, 0.9);
-	
-	makeLuaSprite('no', 'no', -650, 600);
-	setLuaSpriteScrollFactor('bgf', 0.9, 0.9);
-	scaleObject('bgf', 1.1, 1.1);
+	-- Here we go again
+	makeLuaSprite('bg', 'establo/Bg', -600, -200);
+    scaleObject('bg', 2, 2);
+    
+	makeAnimatedLuaSprite('ap', 'establo/apostol', -500, 700);
+	addAnimationByPrefix('ap', 'animate', 'idle', 24, true);
 
-	-- sprites that only load if Low Quality is turned off
-	if not lowQuality then
-		makeLuaSprite('no', 'stage_light', -125, -100);
-		setLuaSpriteScrollFactor('no', 0.9, 0.9);
-		scaleObject('no', 1.1, 1.1);
-		
-		makeLuaSprite('no', 'stage_light', 1225, -100);
-		setLuaSpriteScrollFactor('no', 0.9, 0.9);
-		scaleObject('no', 1.1, 1.1);
-		setPropertyLuaSprite('no', 'flipX', true); --mirror sprite horizontally
+	makeAnimatedLuaSprite('camap', 'establo/Cam_Ap', 1100, 900);
+	addAnimationByPrefix('camap', 'animate', 'idle', 20, true);
 
-		makeLuaSprite('no', 'no', -500, -300);
-		setLuaSpriteScrollFactor('no', 1.3, 1.3);
-		scaleObject('no', 0.9, 0.9);
-	end
+	makeAnimatedLuaSprite('anp', 'establo/Ap_N', 1300, 300);
+	addAnimationByPrefix('anp', 'animate', 'idle', 20, true);
 
-	addLuaSprite('bg1', false);
-	addLuaSprite('bgf', false);
-	addLuaSprite('no', false);
-	addLuaSprite('no', false);
-	addLuaSprite('no', false);
-	
+	makeAnimatedLuaSprite('m', 'establo/maria', 500, 300);
+	addAnimationByPrefix('m', 'animate', 'idle', 24, true);
+
+	makeAnimatedLuaSprite('j', 'establo/Jesus', 600, 600);
+	addAnimationByPrefix('j', 'animate', 'idle', 14, true);
+
+	addLuaSprite('bg', false);
+	addLuaSprite('ap', true);
+	addLuaSprite('camap', true);
+	addLuaSprite('anp', false);
+	addLuaSprite('m', false);
+	addLuaSprite('j', false);
 	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end
